@@ -11,7 +11,7 @@ import SwiftUI
 struct Gerenciamento_ReunioesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }

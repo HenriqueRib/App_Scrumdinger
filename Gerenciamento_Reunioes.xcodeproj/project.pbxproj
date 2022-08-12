@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		892939A428A4FD5C0028A1B0 /* Gerenciamento_ReunioesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892939A328A4FD5C0028A1B0 /* Gerenciamento_ReunioesApp.swift */; };
-		892939A628A4FD5C0028A1B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892939A528A4FD5C0028A1B0 /* ContentView.swift */; };
+		892939A628A4FD5C0028A1B0 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892939A528A4FD5C0028A1B0 /* MeetingView.swift */; };
 		892939A828A4FD600028A1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892939A728A4FD600028A1B0 /* Assets.xcassets */; };
 		892939AB28A4FD600028A1B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892939AA28A4FD600028A1B0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		892939A028A4FD5C0028A1B0 /* Gerenciamento_Reunioes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gerenciamento_Reunioes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		892939A328A4FD5C0028A1B0 /* Gerenciamento_ReunioesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gerenciamento_ReunioesApp.swift; sourceTree = "<group>"; };
-		892939A528A4FD5C0028A1B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		892939A528A4FD5C0028A1B0 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		892939A728A4FD600028A1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		892939AA28A4FD600028A1B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				892939A328A4FD5C0028A1B0 /* Gerenciamento_ReunioesApp.swift */,
-				892939A528A4FD5C0028A1B0 /* ContentView.swift */,
+				892939A528A4FD5C0028A1B0 /* MeetingView.swift */,
 				892939A728A4FD600028A1B0 /* Assets.xcassets */,
 				892939A928A4FD600028A1B0 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				892939A628A4FD5C0028A1B0 /* ContentView.swift in Sources */,
+				892939A628A4FD5C0028A1B0 /* MeetingView.swift in Sources */,
 				892939A428A4FD5C0028A1B0 /* Gerenciamento_ReunioesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
