@@ -1,13 +1,11 @@
-//
-//  Theme.swift
-//  Gerenciamento_Reunioes
-//
-//  Created by Henrique Ribeiro on 12/08/22.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+*/
+
 
 import SwiftUI
 
-enum  Theme: String {
+enum Theme: String {
     case bubblegum
     case buttercup
     case indigo
@@ -31,8 +29,7 @@ enum  Theme: String {
         case .indigo, .magenta, .navy, .oxblood, .purple: return .white
         }
     }
-    
-    var mainColor: Color{
+    var mainColor: Color {
         Color(rawValue)
     }
 }

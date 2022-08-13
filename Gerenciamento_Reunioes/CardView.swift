@@ -14,6 +14,8 @@ struct CardView: View {
             Text(scrum.title)
                 .font(.headline)
                 .accessibilityAddTraits(.isHeader)
+    //            let _ = print("hi!")
+    //            let _ = print(scrum.theme.mainColor)
             Spacer()
             HStack {
                 Label("\(scrum.attendees.count)", systemImage: "person.3")
@@ -32,9 +34,13 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var  scrum = DailyScrum.sampleData[0]
+    
     static var previews: some View {
-        CardView(scrum: scrum)
+            CardView(scrum: scrum)
             .background(scrum.theme.mainColor)
-            .previewLayout(.fixed(width: 400, height: 60))
+//            .background(Color.red)
+                .previewLayout(.fixed(width: 400, height: 60))
+                .previewInterfaceOrientation(.landscapeRight)
+        
     }
 }
