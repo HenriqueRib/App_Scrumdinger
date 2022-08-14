@@ -11,7 +11,9 @@ import SwiftUI
 struct Gerenciamento_ReunioesApp: App {
     var body: some Scene {
         WindowGroup {
+            NavigationView{
                 ScrumsView(scrums: DailyScrum.sampleData)
+            }
         }
     }
 }
