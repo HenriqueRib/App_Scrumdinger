@@ -21,6 +21,30 @@ struct DailyScrum: Identifiable {
 }
 
 extension DailyScrum {
+    struct Attendee: Identifiable {
+        let id: UUID
+        var name: String
+        
+        init(id: UUID = UUID(), name: String) {
+            self.id = id
+            self.name = name
+        }
+    }
+    
+    struct Data {
+       var title: String = ""
+       var attendees: [Attendee] = []
+       var lengthInMinutes: Double = 5
+        var theme: Theme = .seafoam
+   }
+    
+    var data: Data {
+       Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme: theme)
+   }
+    
+}
+
+extension DailyScrum {
     static let sampleData: [DailyScrum] =
     [
         DailyScrum(title: "Design", attendees: ["Cathy", "Daisy", "Simon", "Jonathan"], lengthInMinutes: 10, theme: .yellow),
@@ -29,16 +53,3 @@ extension DailyScrum {
     ]
     
 }
-
-extension DailyScrum {
-    struct Attendee: Identifiable {
-        let id: UUID
-        var name: String
-        
-        init(id: UUID = UUID(), name: String) {
-                    self.id = id
-                    self.name = name
-                }
-    }
-}
-
